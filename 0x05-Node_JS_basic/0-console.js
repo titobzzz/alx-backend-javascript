@@ -1,8 +1,7 @@
 /**
- * Displays amessageon the STDOUT.
- * @param {String} msg
+ * Displays a message on the STDOUT.
+ * @param {String} msg The message to display.
  */
-
 const displayMessage = (msg) => {
   process.stdout(msg);
 };
