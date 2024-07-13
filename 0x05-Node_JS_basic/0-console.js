@@ -1,4 +1,5 @@
-// function to display message to stdout
+// function to displa message to stdout
+
 function displayMessage(message) {
   console.log(message);
 }
