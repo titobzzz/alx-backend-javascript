@@ -1,11 +1,13 @@
-const fs = require("fs");
+//read.file task 
+
+const fs = require('fs');
 
 function countStudents(fileName) {
   const students = {};
   const fields = {};
   let length = 0;
   try {
-    const content = fs.readFileSync(fileName, "utf-8");
+    const content = fs.readFileSync(fileName, 'utf-8');
     const lines = content.toString().split("\n");
 
     for (let i = 0; i < lines.length; i += 1) {
@@ -25,7 +27,7 @@ function countStudents(fileName) {
         }
       }
     }
-    
+
     const l = length - 1;
     console.log(`Number of students: ${l}`);
     for (const [key, value] of Object.entries(fields)) {
@@ -38,7 +40,7 @@ function countStudents(fileName) {
       }
     }
   } catch (error) {
-    throw Error("Cannot load the database");
+    throw Error('Cannot load the database');
   }
 }
 
