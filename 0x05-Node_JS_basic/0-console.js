@@ -1,9 +1,6 @@
-/**
- * Displays a message on the STDOUT.
- * @param {String} msg The message to display.
- */
-const displayMessage = (msg) => {
-  process.stdout(msg);
-};
+// function to display message to stdout
+function displayMessage(message) {
+  console.log(message);
+}
 
 module.exports = displayMessage;
