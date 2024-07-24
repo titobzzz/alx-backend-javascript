@@ -1,6 +1,5 @@
 // manifest 3-read something
 
-
 const { readFile } = require('fs');
 
 function countStudents(fileName) {

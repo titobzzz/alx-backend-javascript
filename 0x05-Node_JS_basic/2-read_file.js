@@ -1,6 +1,5 @@
 // read.file task modifedddd
 
-
 const fs = require('fs');
 
 function countStudents(fileName) {
