@@ -1,0 +1,14 @@
+{
+  "name": "0x02-es6_classes",
+  "version": "1.0.0",
+  "description": "### Why and how to add a static method to a class ### How to extend a class from another ### Metaprogramming and symbols ## At the end of this project,you are expected to be able to explain to anyone, without the help of Google: ### How to define a Class ### How to add methods to a class",
+  "main": "0-classroom.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joshua",
+  "license": "ISC"
+}
