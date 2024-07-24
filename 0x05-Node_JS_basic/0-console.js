@@ -1,4 +1,4 @@
-// function to displa message to stdout
+// function to displa message to stdout  modifedddd
 
 function displayMessage(message) {
   console.log(message);
